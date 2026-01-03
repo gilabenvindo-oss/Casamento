@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Casamento | Ana & João</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Ana & João</h1>
+  <p>Vamos nos casar</p>
+  <span>25 • 08 • 2026</span>
+  <a href="#rsvp" class="btn">Confirmar Presença</a>
+</header>
+
+<section class="historia">
+  <h2>Nossa História</h2>
+  <p>Entre sorrisos, desafios e amor, decidimos caminhar juntos para sempre.</p>
+</section>
+
+<section class="detalhes">
+  <h2>Detalhes do Evento</h2>
+  <ul>
+    <li><strong>Data:</strong> 25 de Agosto de 2026</li>
+    <li><strong>Hora:</strong> 15h</li>
+    <li><strong>Local:</strong> Igreja Central – Huambo</li>
+  </ul>
+</section>
+
+<section id="rsvp">
+  <h2>Confirmação de Presença</h2>
+
+  <form action="https://formspree.io/f/SEU_ID" method="POST">
+    <input type="text" name="nome" placeholder="Nome completo" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="tel" name="telefone" placeholder="WhatsApp">
+
+    <select name="presenca">
+      <option value="Sim">Confirmo presença</option>
+      <option value="Não">Não poderei comparecer</option>
+    </select>
+
+    <textarea name="mensagem" placeholder="Mensagem aos noivos"></textarea>
+
+    <button type="submit">Enviar Confirmação</button>
+  </form>
+</section>
+
+<footer>
+  <p>Com amor, Ana & João 💍</p>
+</footer>
+
+</body>
+</html>
